@@ -1,6 +1,6 @@
 # Fake_News_Prediction
 
-[Report](https://github.com/ashishvinodkumar/Fake_News_Prediction/blob/main/30_Report/Final_Report.pdf)
+[Click here for the full report](https://github.com/ashishvinodkumar/Fake_News_Prediction/blob/main/30_Report/Final_Report.pdf)
 
 # Abstract
 Fake News has recently become a buzzword describing lies and false information spread through news outlets and social media.  Many have sought to find ways to classify news articles and headlines as either fake news or accurate information.  This paper aims to explore Convolutional Neural Networks as a classification tool for the Liar dataset created by William Yang Wang.  To test our dataset we used word embeddings on the text of our labeled dataset.  Both our regression and neural network are multi-class models because our data is labeled with one of six categories from “completely false” to “completely true”.  We were able to achieve similar results as reported by William Yang Wang in the original Liar dataset paper.  Our Convolutional Neural network achieved 21% accuracy and our Logistic Regression achieved 25% accuracy. Our results demonstrate the importance of model comparison, the strength of logistic regressions, and the difficulty of multi-class models.  
