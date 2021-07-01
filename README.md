@@ -16,10 +16,9 @@ Interestingly, having a multi-class response variable reduces the model accuracy
 To further test this hypothesis, we proceeded to bucket the 6 labels into broader labels of simply consisting of False and True. We immediately noticed that the overall model accuracy increased to 62.8%. The precision score increased to 65%, recall score to 75.1%, and F1 score increased to 69.7%. 
 
 Here is a plot of the ROC curve that showcases an AUC of 65.1% when we have a binary response label instead of a multi-class label.
-
-
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26104722/124199419-d77f5180-daa0-11eb-89f4-63d55ef6f558.png" width="600" height="600">
+</p>
 
 Convolutional Neural Network performed with an accuracy of 21% on our separated test data.  In the figures below we see graphs of the model’s accuracy and the model’s loss.  Our model reached epoch 6 before it began overfitting.  
 
